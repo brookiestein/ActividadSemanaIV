@@ -48,7 +48,8 @@ void MainWindow::onLogin()
     }
 
     QMessageBox::information(this,
-                             tr("Inicio de Sesión Exitoso"),
+                             tr(""
+                                "Éxito"),
                              tr("¡Bienvenido %1!").arg(username));
 }
 
